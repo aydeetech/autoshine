@@ -1,0 +1,187 @@
+.meetUs{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.largemeet {
+    opacity: 0;
+    transition: all 0.5s ease-in;
+}
+.bgImg{
+    width: 100%;
+    height: 80vh;
+    position: relative !important;
+}
+
+.bgImg > .imageMeetUs{
+    width: 100% ;
+    height: 100% ;
+    object-fit: cover;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 0px #004791 ;
+    z-index: -1; 
+    transition: 1s all ease-in-out; 
+    /* transform: scale(101%) */
+}
+.meetUsImg{
+    text-align: center;
+    position: absolute;
+    bottom: .1rem;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.h3{
+    text-align: center;
+    position: absolute;
+    bottom: .1rem;
+    left: 0;
+    width: 100%;
+    z-index: 114;
+}
+.h3 h3{
+    color: #003770;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.meetUsImg2{
+    display: none;
+}
+.shape{
+    text-align: center;
+    border-radius: 15px;
+    position: absolute !important;
+    bottom: .2rem;
+    width: 100%;
+    transition: all 0.5s ease-in;
+    padding: 1.8rem 2rem;
+    z-index: 1;
+}
+.shape h3{
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #003770;
+}
+.shape h5{
+    font-weight: 600;
+    opacity: 0;
+    font-size: 1rem;
+    transition: all 0.4s ease
+}
+.shape p{
+   font-size: .9rem;
+   font-family: 600;
+   color: #3a71ac;
+   opacity: 0;
+   transition: all 0.4s ease;
+}
+.shape .social{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+   opacity: 0;
+   transition: all 0.4s ease;
+}
+.bgImg:hover{
+    cursor: pointer !important;
+}
+.bgImg:hover .h3{
+    display: none;
+}
+.bgImg:hover > .largemeet {
+    opacity: 1;
+    transition: .9s all ease-in-out;
+    transform: scale(1);
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }    
+}
+.bgImg:hover .imageMeetUs{
+    transition: .5s all ease-in-out;
+    transform: scaleY(101%);
+}
+.bgImg:hover .meetUsImg2{
+    display: flex;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: .5rem;
+    /* transform: scale(1) ; */
+    opacity: 1;
+    /* animation: fade 0.5s ease-in linear; */
+}
+.bgImg:hover .meetUsImg{
+    display: none;
+}
+.bgImg:hover .shape{
+    display: block;
+}
+.bgImg:hover h5{
+    opacity: 1;
+}
+.bgImg:hover p{
+    opacity: 1;
+}
+.bgImg:hover .social{
+    opacity: 1;
+ }
+.bgImg:hover .meetUsImg{
+    opacity: 1;
+}
+.bgImg:hover .imageMeetUs2{
+    transform: scale(0.997);
+    transform: translateY(-3px);
+}
+@media screen and (max-width: 1024px) {
+    .shape{
+        padding: .8rem;
+    }
+    .shape h3{
+        font-weight: 900;
+        font-size: 1.3rem;
+    }
+    .shape h5{
+        font-weight: 400;
+    }
+    .shape p{
+       font-size: .7rem;
+    }
+}
+@media screen and (max-width: 960px) {
+    .meetUs{
+        width: 100%;
+        grid-template-columns: repeat(2,1fr); 
+    }
+}
+@media screen and (max-width: 768px) {
+    .meetUs{
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+}
+@media screen and (max-width: 425px) {
+    .meetUs{
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 4rem;
+        
+    }
+}
+@media screen and (max-width: 375px) {
+    .meetUs{
+        margin-top: 3rem;
+        
+    }
+}

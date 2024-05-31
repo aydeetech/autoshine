@@ -1,0 +1,77 @@
+.check-div{
+    display: flex;
+    position: relative;
+}
+
+.check-div .input{
+    opacity: 0;
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.input ~ .checkmark-yellow{
+    width: 73.5px;
+    height: 60px;
+    border-radius: 12px;
+    position: absolute;
+    background: #FFC245;
+}
+.checkmark-yellow:hover{
+    background: #f7d288;
+}
+.input:checked ~ .checkmark-yellow {
+    background-color: #FFC245;
+    border: 3px solid rgb(180, 180, 180);
+  }
+
+.checkmark-yellow:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+.input:checked ~ .checkmark-yellow:after {
+    display: block;
+  }
+
+  .checkmark-yellow:after {
+    left: 50%;
+    top: 50%;
+    width: 10px;
+    height: 15px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+
+
+.checkmark-red{
+    width: 73.5px;
+    height: 60px;
+    border-radius: 12px;
+    position: absolute;
+    background: #CA5765;
+    left: 6rem;
+}
+.checkmark-red:hover{
+    background: #ff7585;
+}
+
+
+.checkmark-green{
+    width: 73.5px;
+    height: 60px;
+    border-radius: 12px;
+    position: absolute;
+    background: #01BB9C;
+    left: 12rem;
+}
+.checkmark-green:hover{
+    background: #14ddbc;
+}
+

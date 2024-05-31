@@ -1,0 +1,200 @@
+.Hero-h1{
+    font-size:32px; 
+    color:#003770;
+    font-weight: 800;
+}
+
+.Hero-image{
+    display: none;    
+}
+
+.Hero-what-we-do{
+    font-size: 30px;
+    color:#003770;
+    font-weight: 600px;
+}
+
+.Hero-button{
+    color: white;
+    background-color: #0064CC;
+    background-image: linear-gradient(to bottom, transparent 50%, #003770 50%);
+    background-position: 0 0;
+    background-size: 100% 200%;
+    border: none;
+    
+    border-radius: 0px 0px 12px 12px;
+    transition: background-position 1s;
+}
+
+.Hero-button:hover{
+    background-position: 0 100%;
+}
+
+.Hero-bodybackground{
+    background-image: url(../../assets/BackgroundImage.svg);
+}
+
+.Hero-p{
+    color: #5497DD;
+    background-color: #F6EB9A;
+}
+
+.Hero-Label{
+    color:#003770; 
+    font-size:"14px";
+}
+
+.Hero-form {
+    border-radius:10px !important;   
+}
+
+.Hero-form-div{
+    border-radius:10px !important;
+    
+}
+
+.home-service-wrapper {
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    gap: 6px;
+}
+
+.bg-active {
+    background-color: #0064CC;
+}
+
+.service-filter {
+    border: none;
+    font-weight: 700 !important;
+    font-size: 10px !important;
+    border:1px solid #0064CC !important;
+    width: 140px;
+}
+
+.service-filter:hover {
+    color: #E6F0FA !important;
+    background-color: #0064CC !important;
+}
+
+.service-filter span:first-child {
+   width: 0.5rem;
+   height: 0.5rem;
+   background-color: #0064CC;
+    border-radius: 100%;
+}
+
+.service-filter:hover span:first-child {
+    background-color: #E6F0FA;
+}
+
+
+
+
+
+
+
+.Hero-feature{
+    width:100% !important;
+}  
+
+/* .Hero-feature-flex{
+    display: none;
+} */
+
+.Hero-button2{
+    border: none;
+    font-size: large;
+    padding: 10px;
+    border-radius: 10px;
+    color: blue;
+    background-color: white;
+    transition: all 1s;
+}
+
+.Hero-button2:hover{
+    background-color: #003770;
+    color: white;
+}
+
+.what-we-offer-img {
+    width: 100%;
+    height: 345px;
+    object-fit: cover;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+   
+.home-service-wrapper {
+    grid-template-columns: repeat(5, 1fr);
+}
+    
+
+    /* .Hero-Interior-Cleaning {
+        overflow: scroll !important;
+    } */
+}
+
+
+
+
+
+@media screen and (min-width: 700px) {
+    .Hero-h1{
+        font-size: 72px;
+    }
+
+    .Hero-what-we-do{
+        font-size: 60px;
+        color:#003770;
+        font-weight: 600;
+    }
+
+    .Hero-image{
+        width: 520px;
+        display: block;
+    }
+    .Hero-form-input-div{
+        width: 8rem;
+    }
+
+    .Hero-button{
+        width: 15rem;
+        border-radius: 0px 12px 12px 0px;
+    }
+
+    
+
+   
+}
+
+@media screen and (min-width: 992px) {
+    
+    .Hero-feature{
+        width:50% !important;
+    }  
+    .Hero-h1{
+        font-size:60px; 
+        color:#003770;
+        font-weight: 800;
+    }
+    .Hero-what-we-do{
+        font-size: 40px;
+        color:#003770;
+        font-weight: 600px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .service-filter {
+        border: none;
+        font-weight: 700 !important;
+        font-size: 16px !important;
+        /* color: #0064CC !important; */
+        width: 220px;
+    }
+}
+

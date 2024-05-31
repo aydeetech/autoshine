@@ -1,0 +1,218 @@
+.CarProfileComponent-round{
+    border-radius: 22.13px;
+    display: flex;
+    justify-content: center;
+    width: 44.43px;
+    height: 44.43px;
+    margin: 0 auto;
+}
+
+.Success{
+    background: #16C612;
+    border: 3px solid #c5eec5;
+}
+
+.previous{
+    transform: rotateZ(90deg);
+}
+
+.Location-input{
+    position: relative;
+}
+
+.Location-icon{
+    position: absolute;
+    top: 1.2rem;
+    left: 1rem;
+}
+
+.Location-dropdown{
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+}
+
+.Car-type{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 6px;
+}
+
+.carProfile-button{
+    background: #0064CC;
+    margin-bottom: 4rem;
+    border-radius: 40px;
+    Padding: 18px 0;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.Car-type img{
+    width: 33.3%;
+    background: #B0CFEF;
+    border-radius: 1rem;
+   padding: 1rem 2rem;
+}
+
+.Car-type img:hover{
+    background: #0064CC;
+}
+
+.Car-type .type {
+    position: relative;
+}
+
+.Car-type .type input {
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+    opacity: 0;
+}
+
+
+.Car-type .type div{
+    background: #B0CFEF;
+    border-radius: 1rem;
+    width: 136px;
+    /* width: 100%; */
+    height: 120px;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Car-type .type p {
+    font-weight: 600;
+}
+
+.Car-type .type input:checked +   div {
+    background: #0064CC !important;
+}
+
+.Car-type .type div:hover {
+    background: #0064CC !important;   
+}
+
+
+.color-type .type {
+position: relative;
+
+}
+
+.color-type .type div{
+    background: #B0CFEF;
+    border-radius: 12px;
+    width: 72px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-type .type input {
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+    opacity: 0;
+}
+
+.color-type .type p {
+    opacity: 0;
+}
+
+
+.color-type .type input:checked + div p {
+    opacity: 1;
+}
+
+.color-type .type input:checked + div  {
+    border: 3px solid #0000004D;
+}
+
+@media screen and (min-width:900px) {
+    .Car-type{
+        /* gap: 3.3rem; */
+        display: flex;
+    }
+    .Car-type img{
+       padding: 2rem 3rem;
+    }
+
+.Car-type .type {
+    position: relative;
+}
+
+.Car-type .type input {
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+    opacity: 0;
+}
+
+
+.Car-type .type div{
+    background: #B0CFEF;
+    border-radius: 1rem;
+    width: 186px;
+    /* width: 100%; */
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Car-type .type p {
+    font-weight: 600;
+}
+
+.Car-type .type input:checked +   div {
+    background: #0064CC !important;
+}
+
+.Car-type .type div:hover {
+    background: #0064CC !important;   
+}
+
+
+.color-type .type {
+position: relative;
+
+}
+
+.color-type .type div{
+    background: #B0CFEF;
+    border-radius: 12px;
+    width: 72px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-type .type input {
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+    opacity: 0;
+}
+
+.color-type .type p {
+    opacity: 0;
+}
+
+
+.color-type .type input:checked + div p {
+    opacity: 1;
+}
+
+.color-type .type input:checked + div  {
+    border: 3px solid #0000004D;
+}
+}

@@ -1,0 +1,47 @@
+.Signup-General-Div{
+    display: flex;
+    flex-direction: column;
+}
+
+.Signup-link-to-home{
+    font-size:32px; 
+    font-weight:800; 
+    color: white; 
+    position: absolute; 
+    left: 100px; 
+    top: 53px;
+}
+
+.Signup-image{
+    display: none;
+}
+
+.See-Password{
+    cursor: pointer;
+}
+
+  @media screen and (min-width: 992px){
+    .Sign-component {
+        width: 50% !important;
+    }
+  }
+
+
+@media screen and (min-width:1024px) {
+    .Signup-General-Div{
+        position: relative;
+        flex-direction: row;
+    }
+
+    .Signup-image{
+        display: block;
+        position: fixed;
+        width: 50%;
+    }
+
+    .Sign-component{
+        position: absolute;
+        right: 0;
+        width: 50%;
+    }
+}

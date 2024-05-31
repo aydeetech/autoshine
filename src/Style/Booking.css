@@ -1,0 +1,25 @@
+.booking-h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #003770;
+}
+
+.booking-p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #8A9298;
+}
+
+@media screen and (min-width: 786px) {
+    .booking-h1{
+        font-size: 76px;
+        font-weight: 700;
+    }
+    
+    .booking-p{
+        font-size: 20px;
+        font-weight: 500;
+        width: 40rem;
+        margin: auto;
+    }
+}

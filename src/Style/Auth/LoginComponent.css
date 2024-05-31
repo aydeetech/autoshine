@@ -1,0 +1,28 @@
+.LoginComponent-label {
+    
+}
+
+.LoginComponent-input{
+    width: 600px;
+    border: 1px solid #8A9298;
+    Padding: 20px 24px 20px 24px;
+}
+
+.Login-button{
+    background: #0064CC;
+    margin-bottom: 4rem;
+    border-radius: 40px;
+    Padding: 18px 0;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+@media screen and (min-width: 800px) {
+    .LoginComponent-input{
+        width: 500px;
+        
+    }
+}

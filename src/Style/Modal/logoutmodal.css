@@ -1,0 +1,168 @@
+@keyframes scaleup {
+    from {
+        scale: 0.4;
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+button.onboard {
+    width: 100% !important;
+    background-color: #0064CC !important;
+}
+
+
+
+.onboard-wrapper {
+    height: fit-content !important;
+}
+
+.logout-wrapper {
+    height: 555px;
+    width: 100%;
+    max-width: 672px;
+    border-radius: 20.63px;
+    z-index: 600;
+    place-items: center;
+    animation: scaleup 0.2s ease-in forwards;
+}
+
+.addcar-wrapper {
+    height: 700px;
+    width: 100%;
+    max-width: 672px;
+    border-radius: 20.63px;
+    z-index: 600;
+    /* place-items: center; */
+    animation: scaleup 0.2s ease-in forwards;
+}
+
+.addcar-wrapper h2 {
+    color: #003770;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.addcar-wrapper p {
+    font-size: 17px;
+    font-weight: 500;
+    color: #33414B;
+}
+
+div.arrow {
+    display: none;
+}
+
+.addcar-wrapper {
+    font-weight: 500;
+    font-size: 14px;
+    color: #33414B;
+}
+
+.addcar-wrapper input {
+    height: 52.43px;
+    border-radius: 14px;
+    padding-inline: 0.5rem;
+    border: 1px solid #B0B1B2;
+}
+
+.logout-container {
+    z-index: 1200;
+    place-items: center;
+    padding: 1rem;
+}
+
+.logout-wrapper h2 {
+    color: #003770;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.logout-wrapper button {
+    width: 208px;
+    height: 55px;
+    border-radius: 25.85px;
+    font-weight: 600;
+}
+
+.logout-wrapper button:last-child {
+    background-color: #9C2631;
+}
+.logout-wrapper button:first-child {
+    border: 2px solid #0064CC;
+    color: #0064CC;
+}
+
+.addcar-wrapper button {
+    height:  52.35px;
+    font-weight: 600;
+    background-color: #0064CC;
+    border-radius: 2.2rem;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 992px) {
+    .logout-wrapper {
+        max-width: 500px;
+        height: 450px;
+        padding: 1rem;
+    }
+
+    .logout-wrapper button {
+        width: 140px;
+    }
+
+    .logout-wrapper img {
+        width: 9rem;
+    }
+
+    .addcar-wrapper {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .logout-wrapper img {
+        width: 5rem;
+    }
+
+    .logout-wrapper h2 {
+        font-size: 24px;
+    }
+
+    .logout-wrapper {
+        height: 350px;
+    }
+    .complete img {
+        width: 4rem;
+    }
+
+    .logout-wrapper button {
+        width: 108px;
+        font-size: 14px;
+    }
+
+    .logout-container.addcar {
+        height: fit-content !important;
+        position: relative !important;
+        bottom: -100%;
+        padding: 0 !important;
+        margin-top: 100%;
+    }
+
+    
+
+    .addcar-wrapper {
+        height: fit-content !important;
+    }
+
+    .addcar-wrapper .Car-type {
+        flex-wrap: nowrap;
+    }
+
+    
+}
+

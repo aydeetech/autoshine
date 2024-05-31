@@ -1,0 +1,89 @@
+
+
+.Hero3-Business{
+    background-image: url(../../assets/Business.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 10px;
+    padding: 4rem 0;
+    align-items: start;
+    display: flex;
+    width: 100%;
+} 
+
+.Hero3-Business .business-wrapper {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1.5rem;
+}
+
+.Hero3-Business .div{
+    background-color: #0064CC;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    transition: animation 2s;
+    height: 102px !important;
+   max-width: 233px !important;
+}
+
+.business-wrapper p {
+    margin: 0 !important;
+    font-size: 14px;
+}
+
+
+.Hero3-Business .div:hover{
+    animation: div 2s  ease-out;
+}
+
+
+
+.Hero3-Business .div h1 {
+    font-size: 32px !important;
+    font-weight: 700;
+}
+
+
+@keyframes div {
+    0%{transform: scale(1.5);}
+    25%{transform: scale(1);}
+    50%{transform: scale(1.2);}
+    75%{transform: scale(1);}
+    1000%{transform: scale(1.1);}
+}
+
+@media screen and (min-width: 600px) {
+    .Hero3-Business .business-wrapper div  {
+        /* grid-template-columns: repeat(3, 1fr) !important; */
+        height: 192px !important;
+    }
+
+    .Hero3-Business .business-wrapper h1 {
+        font-size: 48px !important;
+    }
+
+    .Hero3-Business .business-wrapper p {
+        font-size: 16px !important;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    
+    .testimonial-img {
+        width: 50% !important;
+    }
+
+    .Hero3-Business .business-wrapper {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+
+    .Hero3-Business .business-wrapper h1 {
+        font-size: 72px !important;
+    }
+}

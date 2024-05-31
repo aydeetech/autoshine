@@ -1,0 +1,83 @@
+.settings-car h2 {
+    font-size: 36px;
+    color: #003770;
+}
+
+.settings-car p {
+    color: #8A9298;
+    font-size: 18px;
+}
+
+.settings-car button {
+    background-color: #005BBA;
+    color: #F8F9FA;
+    width: 139px;
+    height: 44px;
+    border-radius: 8px;
+    font-weight: 500;
+    border: none;
+}
+
+.settings-car-form p  {
+    color: #003770;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.settings-car-form input {
+    height: 59px;
+    border-radius: 16px;
+    border: 1px solid #B0B1B2;
+    padding: 20px;
+}
+
+.settings-car-form label {
+    font-weight: 500;
+    color: #00111E;
+}
+
+.car-type-settings .types div {
+    background: #B0CFEF;
+    border-radius: 1rem;
+    width: 187px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings-btn button {
+    height: 60px;
+    max-width: 292px;
+    width: 100%;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+}
+
+.settings-btn button:first-child {
+    background-color: #0064CC;
+    color: #F8F9FA;
+}
+
+.settings-btn button:last-child {
+    background-color: #E87882;
+    color: #9C2631;
+}
+.profile-car button {
+    height: 55px;
+    border-radius: 40px;
+    padding: 0 18px !important;
+    font-weight: 600;
+    /* border: 5px solid black !important; */
+    width: 100%;
+}
+@media screen and (max-width: 330px) {
+    .settings-btn {
+        flex-direction: column;
+    }
+}
+
+

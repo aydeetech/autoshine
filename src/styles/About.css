@@ -1,0 +1,332 @@
+.about-section {
+    width: 100%;
+}
+
+.about-text span{
+   color: #003770;
+   font-weight: 800;
+   font-size: 2.5rem;
+   width: 50%;
+}
+.about-text {
+    width: 50%;
+}
+.about-text h2{
+    color: #5497DD;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.about-text p{
+    width:400px
+}
+.about-img{
+    width: 50%;
+}
+.about-img > .about-image{
+    object-fit: cover;
+    height: 60vh;
+}
+.aboutHero-button{
+    width: 181px;
+    height: 48px;
+    background: #005BBA;
+
+}
+.about-mission{
+    width: 100%;
+    line-height: 2;
+}
+.about-mission h3{
+   font-size: 2rem;
+   font-weight: 600;
+} 
+.spanSame{
+    font-family: 600;
+}
+.same p{
+    font-size: 1.3rem;
+    color: #B0B5B9;
+}
+.mission p span{
+    font-size: 1.3rem;
+}
+.about-img2{
+    height: 70vh;
+    object-fit: cover;
+}
+.values{
+    line-height: 2.5;
+    width: 50%;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #B0B5B9;
+}
+.values h3{
+    font-family: 900;
+    font-size: 2rem;
+}
+.why-us{
+    width: 50%; 
+    line-height: 2.5;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #B0B5B9;
+}
+.why-us ul{
+    margin-top: 5rem;
+}
+.why-us h3{
+    font-family: 900;
+    font-size: 2rem;
+}
+@media screen and (max-width: 1024px) {
+    .about-text span{
+        font-size: 1.8rem;
+     }
+     .about-text h2{
+         font-size: 2.2rem;
+     }
+     .about-mission h3{
+        font-size: 1.8rem;
+     } 
+     .spanSame{
+        font-size: 1.4rem;
+     }
+     .same p{
+        font-size: 1.1rem;
+        color: #B0B5B9;
+    }
+    .about-img > .about-image{
+        height: 50vh;
+    }
+    .about-img2{
+        height: 60vh;
+        object-fit: cover;
+    }
+    
+}
+@media screen and (max-width: 960px) {
+    .about-img {
+           display: none;
+    }
+    .about-text span{
+        font-size: 1.7rem;
+     }
+     .about-text h2{
+         font-size: 2rem;
+     }
+    .about-text {
+        width: 100%;
+        text-align: center;
+     }
+     .about-text p{
+        width: 100%;
+        font-size: 1.3rem;
+     }
+     .values{
+        width: 100%;
+    }
+    .values h3{
+        text-align: center;
+    }
+    .why-us{
+        width: 100%;
+    }
+    .why-us h3{
+        text-align: center;
+    }
+    .why-us ul{
+        margin-top: 0;
+    }
+    .about-img2{
+        height: 50vh;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .about-text span{
+        font-size: 1.8rem;
+     }
+     .about-text h2{
+         font-size: 2.2rem;
+     }
+     .about-mission h3{
+        font-size: 1.8rem;
+     } 
+     .spanSame{
+        font-size: 1.4rem;
+     }
+     .same p{
+        font-size: 1.1rem;
+        color: #B0B5B9;
+    }
+    .about-img2{
+        height: 40vh;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width: 768px) {
+    .about-img {
+           display: none;
+    }
+    .about-text span{
+        font-size: 1.7rem;
+     }
+     .about-text h2{
+         font-size: 2rem;
+     }
+    .about-text {
+        width: 100%;
+        text-align: center;
+     }
+     .about-text p{
+        width: 100%;
+        font-size: 1.3rem;
+     }
+     .values{
+        width: 100%;
+        font-size: 1rem;
+    }
+    .values h3{
+        text-align: center;
+    }
+    .why-us{
+        width: 100%;
+        font-size: 1rem;
+    }
+    .why-us h3{
+        text-align: center;
+    } 
+}
+@media screen and (max-width: 425px) {
+    .about-img {
+           display: none;
+    }
+    .about-text span{
+        font-size: 1.3rem;
+     }
+     .about-text h2{
+         font-size: 1.7rem;
+     }
+    .about-text {
+        width: 100%;
+        text-align: center;
+     }
+     .about-text p{
+        width: 100%;
+        font-size: 1rem;
+     }
+     .about-mission h3{
+        font-size: 1.5rem;
+     }
+     .same p{
+        font-size: .8rem;
+     }
+     .same p .spanSame{
+        font-size: 1.2rem;
+     }
+     .values{
+        width: 100%;
+        font-size: .8rem;
+    }
+    .values h3{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .why-us{
+        width: 100%;
+        font-size: .8rem;
+    }
+    .why-us h3{
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .about-img {
+           display: none;
+    }
+    .about-text span{
+        font-size: 1.3rem;
+     }
+     .about-text h2{
+         font-size: 1.7rem;
+     }
+    .about-text {
+        width: 100%;
+        text-align: center;
+     }
+     .about-text p{
+        width: 100%;
+        font-size: 1rem;
+     }
+     .about-mission h3{
+        font-size: 1.3rem;
+     }
+     .same p{
+        font-size: .8rem;
+     }
+     .same p .spanSame{
+        font-size: 1.2rem;
+     }
+     .values{
+        width: 100%;
+        font-size: .8rem;
+    }
+    .values h3{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .why-us{
+        width: 100%;
+        font-size: .8rem;
+    }
+    .why-us h3{
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 320px) {
+    .about-img {
+           display: none;
+    }
+    .about-text span{
+        font-size: 1.2rem;
+     }
+     .about-text h2{
+         font-size: 1.4rem;
+     }
+    .about-text {
+        width: 100%;
+        text-align: center;
+     }
+     .about-text p{
+        width: 100%;
+        font-size: 1rem;
+     }
+     .about-mission h3{
+        font-size: 1.1rem;
+     }
+     .same p{
+        font-size: .8rem;
+     }
+     .same p .spanSame{
+        font-size: 1rem;
+     }
+     .values{
+        width: 100%;
+        font-size: .8rem;
+    }
+    .values h3{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .why-us{
+        width: 100%;
+        font-size: .8rem;
+    }
+    .why-us h3{
+        text-align: center;
+        font-size: 1rem;
+    }
+}

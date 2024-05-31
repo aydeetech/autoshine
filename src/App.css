@@ -1,0 +1,147 @@
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.cont {
+    opacity: 1;
+    animation: fadein 0.8s ease-in;
+}
+
+
+@keyframes arrow {
+    0% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(40px);
+    }
+    80% {
+        transform: translateY(60px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.arrow {
+    animation: arrow 0.9s linear infinite;
+}
+
+.service-main p {
+    font-size: 32px;
+    margin: 0 !important;
+}
+
+
+.service-main p:last-child {
+    font-size: 20px;
+}
+
+.location-container {
+    max-width: 737px;
+    width: 100%;
+    height: 78px;
+}
+
+.location-container form div {
+    width: 100%;
+    width: 473px;
+}
+
+.location-container form div input {
+    outline: none;
+    border: none;
+    padding: 0 8px;
+}
+
+.location-container form label {
+    color: #0064CC;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.location-container form button {
+    background-color: #0064CC;
+    color: #fff;
+    font-weight: 700;
+    max-width: 264px;
+    width: 100%;
+    border: none;
+    font-size: 12px;
+    border-radius: 0 8px 8px 0;
+    padding: 0.8rem;
+}
+
+.service-testimonial {
+    width: 232px;
+    padding: 16px;
+}
+
+.service-bg {
+    background-image: url("../assets/BackgroundImage.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    /* background-color: #fff; */
+}
+
+
+@media screen and (min-width: 600px) {
+    .service-main p {
+        font-size: 68px;
+        margin: 0 !important;
+    }
+
+    .location-container form div {
+        width: 460px !important;
+    }
+
+    .location-container form button {
+        font-size: 16px !important;
+    }
+}
+
+
+
+@media screen and (min-width: 992px) {
+    .location-container form div {
+        width: 460px !important;
+    }
+
+    .location-container form button {
+        font-size: 16px !important;
+    }
+
+    .service-main p {
+        font-size: 48px;
+
+    }
+
+    .service-main p:last-child {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .service-testimonial {
+    width: 257px;
+    padding: 16px;
+}
+
+.location-container form button {
+    font-size: 16px !important
+}
+
+.location-container form div {
+    width: 473px !important;
+    /* width: 100%; */
+}
+}

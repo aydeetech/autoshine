@@ -1,0 +1,33 @@
+.FAQ-h1{
+    font-size: 32px;
+    color: #003770;
+}
+
+/* .FAQ-image {
+    z-index: 20;
+} */
+@media screen and (min-width: 700px) {
+    .FAQ-h1{
+        font-size: 40px;
+    }
+
+    .FAQ{
+        width: 42rem;
+    }
+
+    .FAQ-image{
+        width: 68px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .FAQ {
+        width: 30rem;
+    }
+}
+@media screen and (min-width: 1300px) {
+    .FAQ {
+        width: 42rem;
+    }
+}
+

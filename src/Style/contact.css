@@ -1,0 +1,133 @@
+.general-div1{
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    height: 100%;
+    background-color: #0064CC;
+}
+.general-div1 h3{
+    font-style: 20px;
+    font-weight: 600;
+}
+
+.design-div{
+    height:6rem;
+    width:5rem;
+    border-radius: 10rem 0 0 0;
+    /* 10rem 0 0 0; */
+    position:absolute;
+    background-color: #67affd;
+    opacity:0.2;
+    z-index: 1;
+    bottom:0;
+    right: 0;
+}
+.design-div1{
+    height:3rem;
+    width:3rem;
+    border-radius: 2rem ;
+    position:absolute;
+    background-color: #67affd;
+    opacity:0.2;
+    z-index: 1;
+    bottom:25px;
+    right: 60px;
+}
+
+/* @keyframes identifier {
+    
+} */
+
+.button{
+    margin-bottom: 1rem;
+    color: white;
+    width: 100%;
+    background-color: #005BBA;
+    padding: 16px 48px 16px 48px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #8D8D8D;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.subject{
+    color: black;
+    margin-top: 5rem;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .design-div{
+        height:10rem;
+        width:10rem;
+        border-radius: 10rem 0 0 0;
+        position:absolute;
+        background-color: #67affd;
+        opacity:0.2;
+        z-index: 1;
+        bottom:0;
+        right: 0;
+    }
+    .design-div1{
+        height:138px;
+        width:138px;
+        border-radius: 69px ;
+        position:absolute;
+        background-color: #67affd;
+        opacity:0.2;
+        z-index: 1;
+        bottom:30px;
+        right: 50px;
+    }
+    .general-div1{
+        border-radius: 20px 0px 0px 20px;
+       width: 45%;
+        display: flex;
+        align-items: center;
+    }
+    .button{
+        margin-bottom: 1px;
+    }
+    .contact-label{
+        margin-top: 1px;
+    }
+
+    .general-div1 div p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .general-div1 h3{
+        font-style: 30px;
+        font-weight: 700;
+    }
+    .general-div1 div p{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .general-div2{
+        /* padding: 0 1; */
+        width: 55%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .general-div{
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+    .subject{
+        margin-top: 5rem;
+        
+    }
+}

@@ -1,0 +1,7 @@
+*{
+   box-sizing: border-box;
+   text-decoration: none !important;
+}
+body{
+    font-family: "Inter", sans-serif;
+}

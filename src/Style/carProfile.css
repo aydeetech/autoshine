@@ -1,0 +1,45 @@
+.carProfile-General-Div{
+    display: flex;
+    flex-direction: column;
+}
+
+.carProfile-link-to-home{
+    font-size:32px; 
+    font-weight:800; 
+    color: white; 
+    position: absolute; 
+    left: 100px; 
+    top: 53px;
+}
+
+.See-Password{
+    cursor: pointer;
+}
+
+.carProfile-image{
+    display: none;
+}
+
+/* .carProfile-component{
+    padding: 7rem 0;
+} */
+
+@media screen and (min-width:1024px) {
+    .carProfile-General-Div{
+        position: relative;
+        flex-direction: row;
+    }
+
+    .carProfile-image{
+        display: block;
+        position: fixed;
+        width: 50%;
+    }
+
+    .carProfile-component{
+        /* margin: 2rem 0; */
+        position: absolute;
+        right: 0;
+        width: 50%;
+    }
+}
